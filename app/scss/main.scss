@@ -1,19 +1,4 @@
-// font-family: 'Playfair Display', serif;
-// font-family: 'Roboto', sans-serif;
-// font-family: 'Prata', serif;
-
-body{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-}
-.container{
-    width: 1170px;
-    margin: auto;
-}
-a{
-    text-decoration: none;
-    &:active{
-        color:#000;
-    }
-}
+@import "../../node_modules/normalize.css/normalize";
+@import "blocks/base.scss";
+@import "blocks/header.scss";
+@import "blocks/popular-models.scss";
