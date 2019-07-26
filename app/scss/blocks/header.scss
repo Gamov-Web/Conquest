@@ -115,7 +115,7 @@
     padding-top: 179px;
     padding-left: 87px;
 }
-h1{
+.offer__title{
     margin: 0;
     padding-bottom: 13px;
     font-size: 45px;
@@ -124,7 +124,7 @@ h1{
     color: #1b1a17;
     line-height: 60px;
 }
-h1:before{
+.offer__title:before{
     display: block;
     content: '';
     position: relative;
@@ -134,7 +134,7 @@ h1:before{
     width: 50px;
     height: 1px;
 }
-h2{
+.offer__subtext{
     margin: 0;
     padding-bottom: 39px;
     font-size: 30px;
