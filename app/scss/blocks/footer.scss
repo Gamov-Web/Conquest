@@ -1,0 +1,79 @@
+.footer{
+    padding: 67px 0;
+    background-color: #444240;
+    color: #fff;
+}
+.footer__wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.footer__info{
+    display: flex;
+    flex-direction: column;
+}
+.footer__logo{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 23px;
+    & .logo__title{
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0.14em;
+    }
+}
+.footer__phone{
+    margin-bottom: 14px;
+    font-size: 12px;
+    opacity: 0.75;
+    line-height: 14px;
+}
+.footer__email{
+    font-size: 12px;
+    opacity: 0.75;
+    line-height: 14px;
+}
+.footer__title{
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    font-weight: 700;
+}
+.footer__about ul{
+    padding: 0;
+    margin-top: 33px;
+}
+.footer__about ul li{
+    margin-bottom: 15px;
+    list-style: none;
+    font-size: 12px;
+    opacity: 0.75;
+    line-height: 14px;
+    color: #fff;
+}
+.footer__customer ul{
+    padding: 0;
+    margin-top: 33px;
+}
+.footer__customer ul li{
+    margin-bottom: 15px;
+    list-style: none;
+    font-size: 12px;
+    opacity: 0.75;
+    line-height: 14px;
+    color: #fff;
+}
+.footer__delivery ul{
+    padding: 0;
+    margin-top: 33px;
+}
+.footer__delivery ul li{
+    margin-bottom: 15px;
+    list-style: none;
+    font-size: 12px;
+    opacity: 0.75;
+    line-height: 14px;
+    color: #fff;
+}
