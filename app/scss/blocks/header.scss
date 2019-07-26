@@ -162,6 +162,11 @@ h2{
     letter-spacing: 0.05em;
     padding: 26px 38px;
     background-color: #444240;
+    transition: all .2s ease;
+    &:hover{
+        background-color: #1d1c1b;
+        color: #e6e4e4;
+    }
 }
 .header__right{
     position: relative;
