@@ -1,1 +1,1 @@
-.nav__catalog{display:flex;justify-content:space-between;align-items:center}
+.nav__catalog{display:flex;justify-content:space-between;align-items:center;width:100%;padding-top:28px}.nav__logo{display:flex;align-items:center}.nav__menu{display:flex;margin:0;padding-top:7px;padding-left:0}.nav__menu li{list-style:none;margin-right:66px}.nav__menu li:last-child{margin-right:0}.nav__link{color:#555248;font-size:14px;line-height:16px;transition:color .2s linear}.nav__link.active{color:#a69876}.nav__link:hover{color:#a69876}.menu.nav__icons{position:relative;top:4px;left:0}
