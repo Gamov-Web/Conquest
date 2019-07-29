@@ -1,0 +1,73 @@
+.catalog__watches{
+    padding-top: 57px;
+}
+.bread-crumbs{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    li{
+        list-style: none;
+        margin-right: 34px;
+        position: relative;
+    }
+    li::after{
+        display: block;
+        content: '';
+        position: absolute;
+        top: 4px;
+        right: -19px;
+        width: 4px;
+        height: 7px;
+        background: url(../img/catalog/bread-crumb.svg) no-repeat center;
+    }
+    li:last-child::after{
+        background-image: none;
+        width: 0;
+        height: 0;
+        margin-right: 0;
+    }
+    &__link{
+        color: #b3b3b3;
+    }
+    &__link:hover{
+        color: #555248;
+    }
+    &__link.active{
+        color: #555248;
+    }
+}
+.top-catalog__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+.catalog__title{
+    text-align: left;
+    margin: 0;
+}
+.catalog-sort{
+    font-size: 14px;
+    line-height: 21px;
+    color:#bdb9b5;
+}
+.sort__category{
+    color: #1b1a17;
+    margin-left: 9px;
+    position: relative;
+    &::after{
+        display: block;
+        content: '';
+        position: absolute;
+        top: 7px;
+        right: -23px;
+        width: 10px;
+        height: 5px;
+        background: url(../img/catalog/arrow-down.svg) no-repeat center;
+        cursor: pointer;
+    }
+}
