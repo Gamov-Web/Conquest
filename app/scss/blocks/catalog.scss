@@ -75,6 +75,7 @@
 .catalog-main{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 78px;
 }
 .catalog-filter{
     display: flex;
@@ -99,6 +100,13 @@
     height: 300px;
     padding: 20px;
     margin-bottom: 28px;
+}
+.catalog-pages{
+    width: 117px;
+    height: 13px;
+    background-color: #555248;
+    margin-top: 41px;
+    margin-left: auto;
 }
 .item__info{
     width: 100%;
@@ -172,4 +180,63 @@
     line-height: 150%;
     text-align: center;
     letter-spacing: 0.03em;
+}
+.catalog__promo{
+    background: url(../img/catalog/bg-ellipse.svg) no-repeat left top, url(../img/catalog/bg-lines.png) no-repeat right top rgba(234, 228, 213, 0.38) ;
+}
+.promo-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.promo__info{
+    width: 505px;
+    padding-top: 66px;
+    padding-bottom: 92px;
+}
+.promo__title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #818181;
+}
+.promo__name{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: 0.03em;
+    color: #1b1a17;
+}
+.promo__form{
+    display: flex;
+    align-items: flex-end;
+    width: 496px;
+    height: 93px;
+}
+.form__email{
+    width: 278px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #1b1a17;
+    font-size: 14px;
+    color: #444240;
+    padding: 22px 0;
+    margin-right: 33px;
+}
+.form__button{
+    background-color: #31302C;
+    border: none;
+    padding: 24px 43px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
 }
