@@ -241,5 +241,39 @@
     cursor: pointer;
 }
 .slider__block{
+    position: relative;
+    display: flex;
+    align-items: center;
     padding: 81px 0;
+}
+.slider__left{
+    background: url(../img/catalog/slider-left.svg) no-repeat center;
+    width: 12px;
+    height: 23px;
+    position: absolute;
+    top: 50%;
+    left: 140px;
+    cursor: pointer;
+}
+.slider__right{
+    background: url(../img/catalog/slider-right.svg) no-repeat center;
+    width: 12px;
+    height: 23px;
+    position: absolute;
+    top: 50%;
+    right: 140px;
+    cursor: pointer;
+}
+.slider-block__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;  
+}
+.item-slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
 }
